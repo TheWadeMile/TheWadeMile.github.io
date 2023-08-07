@@ -137,16 +137,16 @@ function getLeaderboardCopy () {
 
 const TYPES = {
   ALL: 'All',
-  ROUGH_WATER: 'Rough Water',
+  ROUGH_OCEAN: 'Rough Ocean',
   CALM_WATER: 'Calm Water',
-  INDOOR: 'Indoor',
+  POOL: 'Pool',
 }
 
 const LEADERBOARD = [
   {
     name: 'Jon Merrill',
     time: '34:09',
-    type: TYPES.ROUGH_WATER,
+    type: TYPES.ROUGH_OCEAN,
     location: 'Moonstone Beach, CA, USA',
     date: '08/05/2023',
     link: 'https://www.strava.com/activities/9590443344',
@@ -154,7 +154,7 @@ const LEADERBOARD = [
   {
     name: 'Tyler Lovio-Coley',
     time: '34:09',
-    type: TYPES.ROUGH_WATER,
+    type: TYPES.ROUGH_OCEAN,
     location: 'Moonstone Beach, CA, USA',
     date: '08/05/2023',
     link: 'https://www.strava.com/activities/9590443344',
