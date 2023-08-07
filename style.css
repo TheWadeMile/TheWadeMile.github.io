@@ -3,6 +3,7 @@ body {
   font-style: italic;
   background-color: rgb(225, 245, 245);
   padding: 8px;
+  font-size: 16px;
 }
 
 .header-logo {
@@ -26,6 +27,7 @@ body {
 }
 
 .rule-list {
+  margin-top: 0;
   background-color: rgb(206, 219, 219);
   border-radius: 8px;
   padding-top: 16px;
@@ -35,10 +37,29 @@ body {
 }
 
 .leaderboard-table {
+  margin-top: 16px;
   width: 75%;
 }
 
 .leaderboard-table th,td {
   padding: 4px;
   text-align: center;
+}
+
+.filter-container {
+  display: flex;
+}
+
+.filter-container button {
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+#all-message {
+  font-size: 12px;
+  margin-top: 16px;
+}
+
+.hidden {
+  display: none;
 }
